@@ -22,7 +22,6 @@ class Hp():
         assert self.nb_best_directions <= self.nb_directions 
         self.noise = 0.03 # Gaussian
         self.seed = 1
-        #self.env_name = 'HumanoidBulletEnv-v0'
         self.env_name = 'HalfCheetahBulletEnv-v0'
         
 # normalizing this bad boy so it has a good performance
